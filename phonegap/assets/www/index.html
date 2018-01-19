@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Cordova</title>
+
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+      
+    
+
+    
+<!--  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />-->
+<link href="css/bootstrap.css" rel="stylesheet" media="all">
+<link href="bootstrap-social.css" rel="stylesheet" media="all">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/docs.css" rel="stylesheet">
+<link  href="css/master.css" rel="stylesheet" type="text/css" media="screen" title="no title"/>
+ 
+ 
+ <script type="text/javascript" charset="utf-8" src="cordova-2.4.0.js"></script>
+ <script type="text/javascript" charset="utf-8" src="jquery.js"></script>
+ <script type="text/javascript" charset="utf-8" src="bootstrap.min.js"></script>
+ <script src="docs.js" charset="utf-8"></script>
+ 
+
+
+<script type="text/javascript" charset="utf-8">
+function onBodyLoad()
+{
+	
+    document.addEventListener("deviceready",onDeviceReady,false);
+}
+function onDeviceReady() {
+
+
+}
+   
+
+</script>
+</head>
+<body  onLoad="onBodyLoad();"  >
+<!-- div class="image"></div-->
+	<div class="image" style="top:0;z-index:9;position:absolute;width:100%;">
+		
+	</div>
+	<div style="margin-top:50px;z-index:99;width:100%;">
+		<img style="display:block;margin:5px auto;" src="images/logo.png" />
+	</div>
+
+
+<div style="width:70%;margin:40px auto 0;">
+	<div class="text-font" style="width:100%;margin:0 auto 20px;">
+		A private community that will help you<br/>find your perfect match
+	</div>
+	<button class="loginBtn loginBtn--facebook">
+	  Login with Facebook
+	</button>
+	
+	<button class="loginBtn loginBtn--linkedin">
+	  Login with Linkedin
+	</button>
+  	<div class="text-font" id="register-box">
+  		REGISTER
+  	</div>
+  	<div class="text-font" style="width:100%;margin:20px auto 0;">
+		We'll never post on your behalf
+	</div>
+</div>
+
+</body>
+</html>

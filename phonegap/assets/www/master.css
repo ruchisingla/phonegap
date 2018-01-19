@@ -1,0 +1,10 @@
+ body {
+   
+    width: 100%;
+		background-image: url('images/bg.png');
+  }
+  
+  div.image {
+   content:url(images/logo.png);
+   float:left;
+}
