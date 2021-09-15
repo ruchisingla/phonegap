@@ -14,5 +14,9 @@ public class PhonegapActivity extends DroidGap {
       //  setContentView(R.layout.main);
         super.setIntegerProperty("splashscreen", R.drawable.splash);
         super.loadUrl("file:///android_asset/www/index.html",4000);
+         super.setIntegerProperty("splashscreen", R.drawable.splash);
+        super.loadUrl("file:///android_asset/www/index.html",4000);
+         super.setIntegerProperty("splashscreen", R.drawable.splash);
+        super.loadUrl("file:///android_asset/www/index.html",4000);
     }
 }
